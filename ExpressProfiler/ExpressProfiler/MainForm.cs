@@ -978,6 +978,7 @@ namespace ExpressProfiler
                 lvEvents.VirtualListSize = 0;
                 listView1_ItemSelectionChanged_1(lvEvents, null);
                 lvEvents.Invalidate();
+                m_EventCount = 0;
             }
         }
 
